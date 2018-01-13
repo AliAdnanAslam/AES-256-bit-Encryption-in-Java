@@ -5,7 +5,7 @@ Advanced Encryption Standard technique implemented using 32 bit long encryption 
 
     KeyExpansions—round keys are derived from the cipher key using Rijndael's key schedule. 
     AES requires a separate 128-bit round key block for each round plus one more.
-    1. __InitialRound__
+    1. ** Initial Round **
         *AddRoundKey*—each byte of the state is combined with a block of the round key using bitwise xor.
     2. **Rounds**
         SubBytes—a non-linear substitution step where each byte is replaced with another according to a lookup table.
